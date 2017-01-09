@@ -1,0 +1,21 @@
+#ifndef __CMOVCC_H__
+#define __CMOVCC_H__
+
+make_helper(cmove_rm2r_v);
+make_helper(cmovge_rm2r_v);
+make_helper(cmovs_rm2r_v);
+make_helper(cmovns_rm2r_v);
+make_helper(cmova_rm2r_v);
+make_helper(cmovne_rm2r_v);
+make_helper(cmovbe_rm2r_v);
+make_helper(cmovo_rm2r_v);
+make_helper(cmovno_rm2r_v);
+make_helper(cmovae_rm2r_v);
+make_helper(cmovnb_rm2r_v);
+make_helper(cmovp_rm2r_v);
+make_helper(cmovnp_rm2r_v);
+make_helper(cmovnge_rm2r_v);
+make_helper(cmovg_rm2r_v);
+make_helper(cmovng_rm2r_v);
+
+#endif
